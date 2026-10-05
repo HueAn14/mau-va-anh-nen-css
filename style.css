@@ -1,0 +1,53 @@
+/* 1. Thiết lập màu nền (background-color) cho toàn bộ trang web */
+body {
+    background-color: #e0f2fe; /* Màu xanh băng nhạt */
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Định dạng tiêu đề và đoạn văn chung */
+h1 {
+    color: #0369a1;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #334155;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+/* 2. Thêm ảnh nền (background-image) vào khối <div> và 3. Căn giữa khối <div> */
+.card-box {
+    /* Căn giữa khối <div> ra giữa màn hình */
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 40px 20px;
+    
+    /* Thiết lập ảnh nền */
+    background-image: url('bg-box.jpg');
+    background-size: cover;       /* Phủ kín toàn bộ khung div */
+    background-position: center;  /* Căn giữa hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+
+    /* Định dạng chữ và khung của div để dễ nhìn trên nền ảnh */
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    
+    /* Căn giữa nội dung văn bản bên trong khối <div> */
+    text-align: center;
+}
+
+.card-box h2 {
+    margin-top: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-box p {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
